@@ -1,0 +1,17 @@
+Server: pop.gmail.com
+User: networking348
+Password: testing348
+To: jeanmfrancois@hotmail.com
+CC: neptonfamily@hotmail.com, jeanmfrancois@gmail.com
+BCC: jf@jfbuilds.com
+Subject: Sample Subject
+Body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium, ligula a pretium ultricies, enim sem mollis risus, vel pellentesque odio metus non risus. 
+Nam elementum turpis dolor, fermentum hendrerit magna accumsan a. Nulla sed ultricies dolor, ac mollis neque. Duis maximus sollicitudin ante, vel aliquet augue pretium
+eleifend. Donec at vehicula purus. Vestibulum mattis tincidunt sem, sed iaculis urna tincidunt gravida. Nunc eu ipsum ante. Phasellus vitae tellus ac augue blandit 
+rhoncus. Ut justo erat, semper euismod aliquam eget, tincidunt non nunc. Ut facilisis blandit mauris a sagittis. Ut malesuada eros et massa dictum, in porttitor ex
+lobortis. Praesent a arcu pretium, semper odio pellentesque, scelerisque est. Fusce urna nibh, malesuada sed dapibus nec, auctor at neque. Ut nec pretium justo. 
+Quisque vitae porta orci. Phasellus placerat semper sem ut eleifend. Sed convallis, magna sed tristique viverra, ante quam egestas eros, vitae dictum urna mauris
+vitae nunc. Cras ante nunc, sodales ut aliquam eu, fermentum ac mi. Fusce in varius lorem. Sed vehicula vulputate accumsan. Mauris in odio facilisis, porttitor 
+dolor a, finibus quam. Sed id purus sem. Etiam lacinia nibh a lorem tincidunt euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+ridiculus mus. Fusce varius neque nec feugiat pretium. Donec venenatis orci eu orci feugiat condimentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Etiam blandit malesuada mi, nec cursus sem pretium at. Donec in congue dolor, in sodales nibh.
