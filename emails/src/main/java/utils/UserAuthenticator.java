@@ -28,6 +28,10 @@ public class UserAuthenticator extends javax.mail.Authenticator {
 		setPassword("default");
 	}
 
+	/**
+	 * @param username
+	 * @param password
+	 */
 	public UserAuthenticator(String username, String password) {
 		super();
 		setUser(username);

@@ -17,6 +17,9 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Properties;
 
+import javax.activation.DataHandler;
+import javax.activation.DataSource;
+import javax.activation.FileDataSource;
 import javax.mail.Address;
 import javax.mail.BodyPart;
 import javax.mail.Message.RecipientType;
@@ -50,10 +53,16 @@ public class SendEmail {
 		System.out.println("Program has executed " + args[0]);
 		HashMap<String, String> properties = IO.createProperties(IO.readFile(args[0]), ":");
 		properties.toString();
-		composeEmailPropBased(properties);
+		// composeEmailPropBased(properties);
+		composeEmailPropBased(properties, true, "file_01.jpg", "file_02.png", "file_03.zip");
 	}
 
 	public static void composeEmailPropBased(HashMap<String, String> properties) {
+		composeEmailPropBased(properties, false);
+	}
+
+	public static void composeEmailPropBased(HashMap<String, String> properties, boolean hasAttachment,
+			String... filename) {
 		Address[] toAddresses;
 		Address[] ccAddresses;
 		Address[] bccAddresses;
@@ -95,6 +104,11 @@ public class SendEmail {
 			messageBodyPart.setText(Email.getStringProp(properties, Email.BODY, ""));
 			multipart.addBodyPart(messageBodyPart);
 			message.setContent(multipart);
+			// ATTACHMENT
+			if (hasAttachment) {
+				for (String file : filename)
+					multipart.addBodyPart(getAttachment(file));
+			}
 			// SUBJECT
 			message.setSubject(Email.getStringProp(properties, Email.SUBJECT, "No Subject"));
 			// DATE
@@ -121,5 +135,22 @@ public class SendEmail {
 				}
 			}
 		}
+	}
+
+	/**
+	 * @param file
+	 * @return
+	 */
+	private static BodyPart getAttachment(String file) {
+		BodyPart attachmentPart = new MimeBodyPart();
+		try {
+			DataSource src = new FileDataSource(file);
+			attachmentPart.setDataHandler(new DataHandler(src));
+			attachmentPart.setFileName(file);
+			return attachmentPart;
+		} catch (MessagingException e) {
+			e.printStackTrace();
+		}
+		return attachmentPart;
 	}
 }
