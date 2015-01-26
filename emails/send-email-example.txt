@@ -1,10 +1,10 @@
-Server: pop.gmail.com
-User: networking348
+Server: smtp.gmail.com
+User: networking348@gmail.com
 Password: testing348
-To: jeanmfrancois@hotmail.com
+To: jeanmfrancois@hotmail.com, matilde0406@gmail.com
 CC: neptonfamily@hotmail.com, jeanmfrancois@gmail.com
 BCC: jf@jfbuilds.com
-Subject: Sample Subject
+Subject: Plain Subject
 Body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pretium, ligula a pretium ultricies, enim sem mollis risus, vel pellentesque odio metus non risus. 
 Nam elementum turpis dolor, fermentum hendrerit magna accumsan a. Nulla sed ultricies dolor, ac mollis neque. Duis maximus sollicitudin ante, vel aliquet augue pretium
 eleifend. Donec at vehicula purus. Vestibulum mattis tincidunt sem, sed iaculis urna tincidunt gravida. Nunc eu ipsum ante. Phasellus vitae tellus ac augue blandit 

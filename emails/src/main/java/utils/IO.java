@@ -89,17 +89,17 @@ public class IO {
 					if (prevKey != null) {
 						String newValue = properties.get(prevKey);
 						newValue += pair[0];
-						properties.put(prevKey, newValue);
+						properties.put(prevKey.toUpperCase(), newValue);
 					} else {
 						throw new MalformedIOFile();
 					}
 				} else if (pair.length == 2) {
-					key = pair[0].trim();
+					key = pair[0].trim().toUpperCase();
 					value = pair[1].trim();
 					prevKey = key;
 					properties.put(key, value);
 				} else {
-					key = pair[0].trim();
+					key = pair[0].trim().toUpperCase();
 					for (int i = 1; i < pair.length; i++) {
 						System.out.println("3+>");
 						value += pair[i];

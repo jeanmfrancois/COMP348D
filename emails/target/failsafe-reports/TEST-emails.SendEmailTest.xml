@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.035" errors="0" skipped="0" tests="1" name="emails.SendEmailTest">
+<testsuite failures="0" time="3.457" errors="0" skipped="0" tests="1" name="emails.SendEmailTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\glassfish4\jre7\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="C:\Users\Jean\Dropbox\Projects\COMP348D\emails"/>
     <property name="java.endorsed.dirs" value="C:\glassfish4\jre7\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\Jean\Dropbox\Projects\COMP348D\emails\target\surefire\surefirebooter5077150417837664349.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jean\Dropbox\Projects\COMP348D\emails\target\surefire\surefirebooter4168330704902992598.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\Jean\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -35,7 +35,7 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.3"/>
     <property name="user.home" value="C:\Users\Jean\Dropbox"/>
-    <property name="user.timezone" value=""/>
+    <property name="user.timezone" value="America/New_York"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.7"/>
     <property name="file.encoding" value="Cp1252"/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\glassfish4\jre7"/>
-    <property name="sun.java.command" value="C:\Users\Jean\Dropbox\Projects\COMP348D\emails\target\surefire\surefirebooter5077150417837664349.jar C:\Users\Jean\Dropbox\Projects\COMP348D\emails\target\surefire\surefire5090483473078892005tmp C:\Users\Jean\Dropbox\Projects\COMP348D\emails\target\surefire\surefire5827595728769999781tmp"/>
+    <property name="sun.java.command" value="C:\Users\Jean\Dropbox\Projects\COMP348D\emails\target\surefire\surefirebooter4168330704902992598.jar C:\Users\Jean\Dropbox\Projects\COMP348D\emails\target\surefire\surefire4492954991113078835tmp C:\Users\Jean\Dropbox\Projects\COMP348D\emails\target\surefire\surefire497314013520380950tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,5 +61,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.003" classname="emails.SendEmailTest" name="testMain"/>
+  <testcase time="3.424" classname="emails.SendEmailTest" name="testMain"/>
 </testsuite>

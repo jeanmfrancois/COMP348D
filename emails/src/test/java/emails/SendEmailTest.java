@@ -15,6 +15,8 @@ package emails;
 
 import org.junit.Test;
 
+import com.jfbuilds.tme4.emails.SendEmail;
+
 /**
  * SendEmailTest (description of class)
  * <p>
@@ -29,7 +31,8 @@ import org.junit.Test;
 public class SendEmailTest {
 
 	/**
-	 * Test method for {@link emails.SendEmail#main(java.lang.String[])}.
+	 * Test method for
+	 * {@link com.jfbuilds.tme4.emails.SendEmail#main(java.lang.String[])} .
 	 */
 	@Test
 	public void testMain() {
